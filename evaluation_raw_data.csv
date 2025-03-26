@@ -1,0 +1,316 @@
+Raw Event logged by Plugin,Record exported as JSON from Application DB
+"logPresentationStartEvent: {
+    presentationId: 'cm8q05rmk0003jtavg2qi4rmd',
+    presentationUrl: 'http://localhost:8000/',
+    slideNumber: 1,
+    timestamp: '2025-03-26T14:39:54.715Z'
+}","{
+    ""id"": ""cm8q19a620000jtdhx9gwn7t8"",
+    ""presentationId"": ""cm8q05rmk0003jtavg2qi4rmd"",
+    ""timestamp"": ""2025-03-26 14:39:54.715"",
+    ""presentationUrl"": ""http://localhost:8000/"",
+    ""slideNumber"": 1
+}"
+"logSlideViewEvent: {
+    presentationId: 'cm8q05rmk0003jtavg2qi4rmd',
+    presentationUrl: 'http://localhost:8000/',
+    timestamp: '2025-03-26T14:40:02.465Z',
+    slideNumber: 1,
+    dwellTime: 7
+}","{
+    ""id"": ""cm8q19a6u0002jtdh3s12nxif"",
+    ""presentationId"": ""cm8q05rmk0003jtavg2qi4rmd"",
+    ""timestamp"": ""2025-03-26 14:40:02.465"",
+    ""presentationUrl"": ""http://localhost:8000/"",
+    ""dwellTime"": 7,
+    ""slideNumber"": 1
+}"
+"logSlideViewEvent: {
+    presentationId: 'cm8q05rmk0003jtavg2qi4rmd',
+    presentationUrl: 'http://localhost:8000/',
+    timestamp: '2025-03-26T14:40:04.721Z',
+    slideNumber: 2,
+    dwellTime: 2
+}","{
+    ""id"": ""cm8q19a6u0003jtdhs4p6xaoh"",
+    ""presentationId"": ""cm8q05rmk0003jtavg2qi4rmd"",
+    ""timestamp"": ""2025-03-26 14:40:04.721"",
+    ""presentationUrl"": ""http://localhost:8000/"",
+    ""dwellTime"": 2,
+    ""slideNumber"": 2
+}"
+"logMediaActionEvent: {
+  timestamp: '2025-03-26T14:40:09.348Z',
+  actionType: 'PLAY',
+  slideNumber: 5,
+  mediaId: ""La Mer - First Movement"",
+  mediaSource: ""https://upload.wikimedia.org/wikipedia/commons/5/51/La_mer_-_I._De_l%27aube_%C3%A0_midi_sur_la_mer_-_Concert_Band_-_United_States_Air_Force_Band.mp3"",
+  mediaType: ""AUDIO"",
+  presentationId: ""cm8q05rmk0003jtavg2qi4rmd"",
+  presentationUrl: ""http://localhost:8000/"",
+  totalDuration: 559
+},","{
+    ""id"": ""cm8q19a76000bjtdhksga2am7"",
+    ""presentationId"": ""cm8q05rmk0003jtavg2qi4rmd"",
+    ""timestamp"": ""2025-03-26 14:40:09.348"",
+    ""presentationUrl"": ""http://localhost:8000/"",
+    ""mediaId"": ""La Mer - First Movement"",
+    ""mediaSource"": ""https://upload.wikimedia.org/wikipedia/commons/5/51/La_mer_-_I._De_l%27aube_%C3%A0_midi_sur_la_mer_-_Concert_Band_-_United_States_Air_Force_Band.mp3"",
+    ""actionType"": ""PLAY"",
+    ""currentTime"": 0,
+    ""progress"": null,
+    ""slideNumber"": 5,
+    ""finished"": null,
+    ""mediaType"": ""AUDIO"",
+    ""totalDuration"": 559
+}"
+"logMediaActionEvent: {
+    actionType: ""PAUSE"",
+    currentTime: 5,
+    finished: false,
+    mediaId: ""La Mer - First Movement"",
+    mediaSource: ""https://upload.wikimedia.org/wikipedia/commons/5/51/La_mer_-_I._De_l%27aube_%C3%A0_midi_sur_la_mer_-_Concert_Band_-_United_States_Air_Force_Band.mp3"",
+    mediaType: ""AUDIO"",
+    presentationId: ""cm8q05rmk0003jtavg2qi4rmd"",
+    presentationUrl: ""http://localhost:8000/"",
+    progress: 0.010071892139274534,
+    slideNumber: 5,
+    timestamp: ""2025-03-26T14:40:15.082Z"",
+    totalDuration: 559
+}","{
+    ""id"": ""cm8q19a76000cjtdhcde8c4l7"",
+    ""presentationId"": ""cm8q05rmk0003jtavg2qi4rmd"",
+    ""timestamp"": ""2025-03-26 14:40:15.082"",
+    ""presentationUrl"": ""http://localhost:8000/"",
+    ""mediaId"": ""La Mer - First Movement"",
+    ""mediaSource"": ""https://upload.wikimedia.org/wikipedia/commons/5/51/La_mer_-_I._De_l%27aube_%C3%A0_midi_sur_la_mer_-_Concert_Band_-_United_States_Air_Force_Band.mp3"",
+    ""actionType"": ""PAUSE"",
+    ""currentTime"": 5,
+    ""progress"": 0.01007189213927453,
+    ""slideNumber"": 5,
+    ""finished"": false,
+    ""mediaType"": ""AUDIO"",
+    ""totalDuration"": 559
+}"
+"logSlideViewEvent: {
+    presentationId: 'cm8q05rmk0003jtavg2qi4rmd',
+    presentationUrl: 'http://localhost:8000/',
+    timestamp: '2025-03-26T14:40:17.189Z',
+    slideNumber: 5,
+    dwellTime: 12
+}","{
+    ""id"": ""cm8q19a6u0004jtdhg5641bfg"",
+    ""presentationId"": ""cm8q05rmk0003jtavg2qi4rmd"",
+    ""timestamp"": ""2025-03-26 14:40:17.189"",
+    ""presentationUrl"": ""http://localhost:8000/"",
+    ""dwellTime"": 12,
+    ""slideNumber"": 5
+}"
+"logMediaActionEvent: {
+    actionType: ""PLAY"",
+    currentTime: 0,
+    mediaId: ""Lunar Eclipse 2018"",
+    mediaSource: ""https://upload.wikimedia.org/wikipedia/commons/7/7f/Lunar_eclipse_2018_in_Slovenia.webm"",
+    mediaType: ""VIDEO"",
+    presentationId: ""cm8q05rmk0003jtavg2qi4rmd"",
+    presentationUrl: ""http://localhost:8000/"",
+    slideNumber: 8,
+    timestamp: ""2025-03-26T14:40:18.628Z"",
+    totalDuration: 60
+}","{
+    ""id"": ""cm8q19a76000djtdh53ort1hy"",
+    ""presentationId"": ""cm8q05rmk0003jtavg2qi4rmd"",
+    ""timestamp"": ""2025-03-26 14:40:18.628"",
+    ""presentationUrl"": ""http://localhost:8000/"",
+    ""mediaId"": ""Lunar Eclipse 2018"",
+    ""mediaSource"": ""https://upload.wikimedia.org/wikipedia/commons/7/7f/Lunar_eclipse_2018_in_Slovenia.webm"",
+    ""actionType"": ""PLAY"",
+    ""currentTime"": 0,
+    ""progress"": null,
+    ""slideNumber"": 8,
+    ""finished"": null,
+    ""mediaType"": ""VIDEO"",
+    ""totalDuration"": 60
+}"
+"logMediaActionEvent: {
+    actionType: ""PAUSE"",
+    currentTime: 3,
+    finished: false,
+    mediaId: ""Lunar Eclipse 2018"",
+    mediaSource: ""https://upload.wikimedia.org/wikipedia/commons/7/7f/Lunar_eclipse_2018_in_Slovenia.webm"",
+    mediaType: ""VIDEO"",
+    presentationId: ""cm8q05rmk0003jtavg2qi4rmd"",
+    presentationUrl: ""http://localhost:8000/"",
+    progress: 0.060447852147852144,
+    slideNumber: 8,
+    timestamp: ""2025-03-26T14:40:22.258Z"",
+    totalDuration: 60
+}","{
+    ""id"": ""cm8q19a76000ejtdhi7raz45z"",
+    ""presentationId"": ""cm8q05rmk0003jtavg2qi4rmd"",
+    ""timestamp"": ""2025-03-26 14:40:22.258"",
+    ""presentationUrl"": ""http://localhost:8000/"",
+    ""mediaId"": ""Lunar Eclipse 2018"",
+    ""mediaSource"": ""https://upload.wikimedia.org/wikipedia/commons/7/7f/Lunar_eclipse_2018_in_Slovenia.webm"",
+    ""actionType"": ""PAUSE"",
+    ""currentTime"": 3,
+    ""progress"": 0.06044785214785214,
+    ""slideNumber"": 8,
+    ""finished"": false,
+    ""mediaType"": ""VIDEO"",
+    ""totalDuration"": 60
+}"
+"logSlideViewEvent: {
+    presentationId: 'cm8q05rmk0003jtavg2qi4rmd',
+    presentationUrl: 'http://localhost:8000/',
+    timestamp: '2025-03-26T14:40:26.389Z',
+    slideNumber: 8,
+    dwellTime: 9
+}","{
+    ""id"": ""cm8q19a6u0005jtdhw5ycfcev"",
+    ""presentationId"": ""cm8q05rmk0003jtavg2qi4rmd"",
+    ""timestamp"": ""2025-03-26 14:40:26.389"",
+    ""presentationUrl"": ""http://localhost:8000/"",
+    ""dwellTime"": 9,
+    ""slideNumber"": 8
+}"
+"logSlideViewEvent: {
+    presentationId: 'cm8q05rmk0003jtavg2qi4rmd',
+    presentationUrl: 'http://localhost:8000/',
+    timestamp: '2025-03-26T14:40:28.435Z',
+    slideNumber: 9,
+    dwellTime: 2
+}","{
+    ""id"": ""cm8q19a6u0006jtdhknwss6h3"",
+    ""presentationId"": ""cm8q05rmk0003jtavg2qi4rmd"",
+    ""timestamp"": ""2025-03-26 14:40:28.435"",
+    ""presentationUrl"": ""http://localhost:8000/"",
+    ""dwellTime"": 2,
+    ""slideNumber"": 9
+}"
+"logSlideViewEvent: {
+    presentationId: 'cm8q05rmk0003jtavg2qi4rmd',
+    presentationUrl: 'http://localhost:8000/',
+    timestamp: '2025-03-26T14:40:29.608Z',
+    slideNumber: 10,
+    dwellTime: 1
+}","{
+    ""id"": ""cm8q19a6u0007jtdh38kuse64"",
+    ""presentationId"": ""cm8q05rmk0003jtavg2qi4rmd"",
+    ""timestamp"": ""2025-03-26 14:40:29.608"",
+    ""presentationUrl"": ""http://localhost:8000/"",
+    ""dwellTime"": 1,
+    ""slideNumber"": 10
+}"
+"logSlideViewEvent: {
+    presentationId: 'cm8q05rmk0003jtavg2qi4rmd',
+    presentationUrl: 'http://localhost:8000/',
+    timestamp: '2025-03-26T14:40:30.795Z',
+    slideNumber: 16,
+    dwellTime: 1
+}","{
+    ""id"": ""cm8q19a6u0008jtdhi0z01v2n"",
+    ""presentationId"": ""cm8q05rmk0003jtavg2qi4rmd"",
+    ""timestamp"": ""2025-03-26 14:40:30.795"",
+    ""presentationUrl"": ""http://localhost:8000/"",
+    ""dwellTime"": 1,
+    ""slideNumber"": 16
+}"
+"logQuizActionEvent: {
+    actionType: ""START"",
+    numberOfQuestions: 3,
+    presentationId: ""cm8q05rmk0003jtavg2qi4rmd"",
+    presentationUrl: ""http://localhost:8000/"",
+    quizId: ""quiz"",
+    quizName: ""Test Your Knowledge!"",
+    slideNumber: 17,
+    timestamp: ""2025-03-26T14:40:32.286Z""
+}","{
+    ""id"": ""cm8q19a7e000fjtdhqpyq0mfi"",
+    ""presentationId"": ""cm8q05rmk0003jtavg2qi4rmd"",
+    ""timestamp"": ""2025-03-26 14:40:32.286"",
+    ""presentationUrl"": ""http://localhost:8000/"",
+    ""actionType"": ""START"",
+    ""quizId"": ""quiz"",
+    ""numberOfQuestions"": 3,
+    ""completed"": null,
+    ""score"": null,
+    ""dwellTime"": null,
+    ""slideNumber"": 17,
+    ""quizName"": ""Test Your Knowledge!""
+}"
+"logQuizActionEvent: {
+    actionType: ""COMPLETE"",
+    completed: true,
+    dwellTime: 9,
+    numberOfQuestions: 3,
+    presentationId: ""cm8q05rmk0003jtavg2qi4rmd"",
+    presentationUrl: ""http://localhost:8000/"",
+    quizId: ""quiz"",
+    quizName: ""Test Your Knowledge!"",
+    score: 0.6666666666666666,
+    slideNumber: 17,
+    timestamp: ""2025-03-26T14:40:41.894Z""
+}","{
+    ""id"": ""cm8q19a7e000gjtdh8ht8t5ee"",
+    ""presentationId"": ""cm8q05rmk0003jtavg2qi4rmd"",
+    ""timestamp"": ""2025-03-26 14:40:41.894"",
+    ""presentationUrl"": ""http://localhost:8000/"",
+    ""actionType"": ""COMPLETE"",
+    ""quizId"": ""quiz"",
+    ""numberOfQuestions"": 3,
+    ""completed"": true,
+    ""score"": 0.6666666666666666,
+    ""dwellTime"": 9,
+    ""slideNumber"": 17,
+    ""quizName"": ""Test Your Knowledge!""
+}"
+"logSlideViewEvent: {
+    presentationId: 'cm8q05rmk0003jtavg2qi4rmd',
+    presentationUrl: 'http://localhost:8000/',
+    timestamp: '2025-03-26T14:40:43.051Z',
+    slideNumber: 17,
+    dwellTime: 12
+}","{
+    ""id"": ""cm8q19a6u0009jtdh9cbx4iop"",
+    ""presentationId"": ""cm8q05rmk0003jtavg2qi4rmd"",
+    ""timestamp"": ""2025-03-26 14:40:43.051"",
+    ""presentationUrl"": ""http://localhost:8000/"",
+    ""dwellTime"": 12,
+    ""slideNumber"": 17
+}"
+"logLinkActionEvent: {
+    linkText: ""https://commons.wikimedia.org/w/index.php?title=File:Debussy_-_La_Mer_-_The_great_wave_of_Kanaga_from_Hokusai.jpg&oldid=544296653"",
+    linkType: ""EXTERNAL"",
+    linkUrl: ""https://commons.wikimedia.org/w/index.php?title=File:Debussy_-_La_Mer_-_The_great_wave_of_Kanaga_from_Hokusai.jpg&oldid=544296653"",
+    presentationId: ""cm8q05rmk0003jtavg2qi4rmd"",
+    presentationUrl: ""http://localhost:8000/"",
+    slideNumber: 18,
+    timestamp: ""2025-03-26T14:40:44.298Z""
+}","{
+    ""id"": ""cm8q19a70000ajtdhrvnaw2cs"",
+    ""presentationId"": ""cm8q05rmk0003jtavg2qi4rmd"",
+    ""timestamp"": ""2025-03-26 14:40:44.298"",
+    ""presentationUrl"": ""http://localhost:8000/"",
+    ""linkType"": ""EXTERNAL"",
+    ""linkUrl"": ""https://commons.wikimedia.org/w/index.php?title=File:Debussy_-_La_Mer_-_The_great_wave_of_Kanaga_from_Hokusai.jpg&oldid=544296653"",
+    ""linkText"": ""https://commons.wikimedia.org/w/index.php?title=File:Debussy_-_La_Mer_-_The_great_wave_of_Kanaga_from_Hokusai.jpg&oldid=544296653"",
+    ""slideNumber"": 18
+}"
+"logPresentationCloseEvent: {
+    finalProgress: 1,
+    presentationId: ""cm8q05rmk0003jtavg2qi4rmd"",
+    presentationUrl: ""http://localhost:8000/"",
+    slideNumber: 18,
+    timestamp: ""2025-03-26T14:41:41.194Z"",
+    totalDwellTime: 106
+}","{
+    ""id"": ""cm8q19a6n0001jtdhn5jir9yx"",
+    ""presentationId"": ""cm8q05rmk0003jtavg2qi4rmd"",
+    ""timestamp"": ""2025-03-26 14:41:41.194"",
+    ""slideNumber"": 18,
+    ""presentationUrl"": ""http://localhost:8000/"",
+    ""finalProgress"": 1,
+    ""totalDwellTime"": 106,
+    ""date"": ""2025-03-26""
+}"
