@@ -1,6 +1,8 @@
 # Master Thesis Dataset
 
-This repository contains the dataset created during the evaluation of the master thesis project.
+This repository contains
+- the dataset created during the evaluation
+- a screenshot of the final metrics page for the evaluation presentation in the application
 
 Project
 - [revealjs-analytics-plugin](https://github.com/ManhTin/revealjs-analytics-plugin)
